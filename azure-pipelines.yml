@@ -43,7 +43,7 @@ steps:
     Contents: '*.vsix'
     TargetFolder: '$(build.artifactstagingdirectory)'
 
-- task: PublishBuildArtifacts@1
+- task: PublishBuildArtifactsNode10@1
   displayName: 'Publish Artifact: ExtensionVsixFiles'
   inputs:
     PathtoPublish: '$(build.artifactstagingdirectory)'
