@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
-    "id": "app-store",
-    "name": "Apple App Store",
+    "id": "daniil-shmelev-app-store",
+    "name": "Daniil Shmelevs Apple App Store",
     "version": "1.178.4",
     "publisher": "ms-vsclient",
     "description": "Provides tasks for publishing to Apple's App Store from a TFS/Azure DevOps build or release pipeline",
